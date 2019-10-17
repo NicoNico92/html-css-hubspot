@@ -121,7 +121,7 @@ ul li{
     background-repeat: no-repeat;
 }
 
-.main_menu_contained {
+.main_part1_contained {
     width:80%;
     height: 100%;
     margin: auto;
@@ -156,5 +156,326 @@ ul li{
 }
 
 .jumbo_caption {
-    font-size: 3px;
+    font-size: 13px;
+    font-weight: 50;
+}
+
+#main_part2_container {
+    background-color: #F5F8FA;
+}
+
+.main_part2_contained1 {
+    width: 70%;
+    margin: auto;
+   display: block;
+   margin: auto;
+}
+
+img.cube_img {
+    max-width: 100%;
+    padding: 100px 300px 20px 300px;
+}
+
+h1.main-part2-h1 {
+    text-align: center;
+}
+
+p.main-part2-p {
+    text-align: center;
+    padding: 2% 10% 10% 10%;
+}
+
+#main-part2-contained2 {
+    background-color: white;
+    max-width: 70%;
+    height: 330px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+#main-part2-contained2-left {
+    width: 30%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+img.book-img {
+    max-width: 65%;
+    padding: 100px 0 0 100px;
+}
+
+#main-part2-contained2-right {
+    width:70%;
+    height: 100%;
+    float: right;
+}
+
+#button-learnmore {
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+    padding: 12px 24px;
+}
+
+#p-main-part2-container2 {
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#p-main-part2-container2::after {
+    content:'';
+    position: absolute;
+    margin-left: 10px;
+    border-bottom: 1.5px solid #e0e6ed;
+    top: 10px;
+    width: 100%;
+    min-width: 250px;
+    }
+
+#main-part3-container {
+    background-color: blue;
+    width: 100%;
+    height: 580px;
+    padding-bottom: 80px;
+}
+
+#main-part3-contained {
+    width: 70%;
+    background-color: green;
+    height: 500px;
+    margin: auto;
+}
+
+aside {
+    width: 30%;
+    float: left;
+    background-color: yellow;
+    height: 500px;
+}
+
+#left-bar {
+
+}
+
+#central-bar {
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 500px;
+    background-color: lightblue;
+}
+
+#right-bar {}
+
+#main-part4-container {
+    width: 100%;
+    height: 700px;
+    background-color: lightblue;
+    margin-bottom:
+}
+
+#main-part4-contained {
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    margin: auto;
+}
+
+#main-part4-containedtop {
+    width: 100%;
+    height: 30%;
+    background-color: red;
+    margin: auto;
+}
+
+#main-part4-containedbottom {
+    width: 100%;
+    height: 70%;
+    background-color: orange;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#main-part4-containedbottomul {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    margin: 0;
+}
+
+.main-part4-containedbottomli {
+    float: left;
+    width: 25%;
+    height: 50%;
+    background-color: green;
+    margin: 0;
+}
+
+.liwithbottomborder {
+    border-bottom: 1px solid white;
+}
+
+.liwithrightborder {
+    border-right: 1px solid white;
+}
+
+#main-part5-container {
+    width: 100%;
+    height: 250px;
+    background-color: gold;
+}
+
+#main-part5-contained {
+    width: 80%;
+    height: 100%;
+    background-color: lightblue;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#main-part5-containedfilling {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: green;
+}
+
+#main-part5-containedfilling-left {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: yellow;
+}
+
+#main-part5-containedfilling-right {
+    width: 70%;
+    height: 100%;
+    float: right;
+    background-color: black;
+    margin: 0;
+}
+
+#main-part5-containedfilling-rightul {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    margin: 0;
+}
+
+.main-part5-containedfilling-rightli {
+    width: 25%;
+    height: 50%;
+    float: left;
+    background-color: red;
+    margin: 0;
+}
+
+#main-part6-container {
+    width: 100%;
+    height: 450px;
+    background-color: green;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#main-part6-contained {
+    width: 80%;
+    height: 100%;
+    background-color: grey;
+    margin: auto;
+}
+
+#main-part6-contained-left {
+    width: 65%;
+    height: 100%;
+    background-color: purple;
+    float: left;
+}
+
+#main-part6-contained-right {
+    width: 35%;
+    height: 100%;
+    background-color: lightgreen;
+    float: right;
+}
+
+.clearfix:after {
+    line-height: 0;
+    content: '';
+    display: table;
+}
+
+#footer-container{
+    width: 100%;
+    height: 650px;
+    background-color: orange;
+    margin: auto;
+}
+
+#footer-contained {
+    width: 75%;
+    height: 100%;
+    background-color: lightgrey;
+    margin: auto;
+}
+
+#ulcontainerfooter {
+    width: 100%;
+    height: 45%;
+    background-color: black;
+    margin: auto#;
+}
+
+#ulfooterbar-container {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    margin: auto#;
+}
+
+.footerbar {
+    width: 24%;
+    height: 100%;
+    background-color: lightgreen;
+    margin: auto;
+    float: left;
+}
+
+.footerbarwithrightmargin {
+    margin-right: 1.3%;
+}
+
+#footermiddle-section{
+    width: 100%;
+    height: 20%;
+    background-color: brown;
+    margin: auto;
+}
+
+.everyfootersection {
+    width: 100%;
+    height: 50%;
+    background-color: lightblue;
+}
+
+#footerbottom {
+    width: 100%;
+    height: 35%;
+    background-color: purple;
+}
+
+#footerbottom-top {
+    width: 100%;
+    height: 40%;
+    background-color: yellow;
+}
+
+#footerbottom-bottom {
+    width: 100%;
+    height: 60%;
+    background-color: blue;
 }
