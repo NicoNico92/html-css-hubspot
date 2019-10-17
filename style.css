@@ -162,6 +162,7 @@ ul li{
 
 #main_part2_container {
     background-color: #F5F8FA;
+    padding-bottom: 50px;
 }
 
 .main_part2_contained1 {
@@ -235,15 +236,14 @@ img.book-img {
     }
 
 #main-part3-container {
-    background-color: blue;
+    background-color: #F5F8FA;
     width: 100%;
-    height: 580px;
-    padding-bottom: 80px;
+    height: 650px;
 }
 
 #main-part3-contained {
     width: 70%;
-    background-color: green;
+    background-color: #F5F8FA;
     height: 500px;
     margin: auto;
 }
@@ -251,50 +251,81 @@ img.book-img {
 aside {
     width: 30%;
     float: left;
-    background-color: yellow;
-    height: 500px;
+    background-color: #FFFFFF;
+    height: 550px;
 }
 
 #left-bar {
+    text-align: center;
+    position: relative;
+}
 
+.bar-img {
+    width:80%;
+    padding: 40px 50px 10px 50px;
 }
 
 #central-bar {
+    text-align: center;
     width: 30%;
     float: left;
     margin-left: 5%;
     margin-right: 5%;
-    height: 500px;
-    background-color: lightblue;
+    height: 550px;
+    background-color: #FFFFFF;
+    position: relative;
 }
 
-#right-bar {}
+#central-bar-img {
+    width:90%;
+    padding: 40px 50px 10px 50px;
+}
+
+#right-bar {
+    text-align: center;
+    position: relative;
+}
+
+.bar-button {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 #main-part4-container {
     width: 100%;
     height: 700px;
-    background-color: lightblue;
+    background-color: #00B9A8;
     margin-bottom:
 }
 
 #main-part4-contained {
     width: 80%;
     height: 100%;
-    background-color: black;
+    background-color: #00B9A8;
     margin: auto;
 }
 
 #main-part4-containedtop {
     width: 100%;
     height: 30%;
-    background-color: red;
+    background-color: #00B9A8;
     margin: auto;
+    text-align: center;
+}
+
+.textmainpart4top {
+    margin: 0 21% 0 21%;
+    padding: 15px 0 0 0;
+    color: white;
+    font-weight: 10;
 }
 
 #main-part4-containedbottom {
     width: 100%;
     height: 70%;
-    background-color: orange;
+    background-color: #00B7AA;
     margin: auto;
     padding-bottom: 50px;
 }
@@ -310,8 +341,24 @@ aside {
     float: left;
     width: 25%;
     height: 50%;
-    background-color: green;
+    background-color: #00B7AA;
     margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.grilledimg {
+    padding: 35px 0 15px 0;
+}
+
+.grilledh1 {
+    display: inline;
+    font-size: 50px;
+    font-weight: 1200;
+}
+
+.grilledp {
+    padding: 6px;
 }
 
 .liwithbottomborder {
@@ -325,13 +372,13 @@ aside {
 #main-part5-container {
     width: 100%;
     height: 250px;
-    background-color: gold;
+    background-color: #FFFFFF;
 }
 
 #main-part5-contained {
     width: 80%;
     height: 100%;
-    background-color: lightblue;
+    background-color: #FFFFFF;
     margin: auto;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -341,21 +388,23 @@ aside {
     width: 100%;
     height: 100%;
     margin: auto;
-    background-color: green;
+    background-color: #FFFFFF;
 }
 
 #main-part5-containedfilling-left {
     width: 30%;
     height: 100%;
     float: left;
-    background-color: yellow;
+    background-color: #FFFFFF;
+    font-size: 140%;
+    padding: 30px 50px 0 50px;
 }
 
 #main-part5-containedfilling-right {
     width: 70%;
     height: 100%;
     float: right;
-    background-color: black;
+    background-color: #FFFFFF;
     margin: 0;
 }
 
@@ -370,8 +419,17 @@ aside {
     width: 25%;
     height: 50%;
     float: left;
-    background-color: red;
+    background-color: white;
     margin: 0;
+    position: relative;
+}
+
+.imgcustomers {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 #main-part6-container {
