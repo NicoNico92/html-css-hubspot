@@ -435,7 +435,7 @@ aside {
 #main-part6-container {
     width: 100%;
     height: 450px;
-    background-color: green;
+    background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -443,22 +443,47 @@ aside {
 #main-part6-contained {
     width: 80%;
     height: 100%;
-    background-color: grey;
+    background-color: white;
     margin: auto;
 }
 
 #main-part6-contained-left {
     width: 65%;
     height: 100%;
-    background-color: purple;
+    background-color: white;
     float: left;
+}
+
+.nearsmilinggirlelement {
+    margin: 30px;
+}
+
+#h1nearsmilinggirl {
+}
+
+#pnearsmilinggirl {
+    margin-right: 280px;
+}
+
+#buttonnearsmilinggirl{
+    display: block;
+    padding: 25px 60px;
 }
 
 #main-part6-contained-right {
     width: 35%;
     height: 100%;
-    background-color: lightgreen;
+    background-color: white;
     float: right;
+    position: relative;
+}
+
+#smilinggirlphoto {
+    max-width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .clearfix:after {
@@ -514,10 +539,26 @@ aside {
     margin: auto;
 }
 
-.everyfootersection {
+#footermiddle-section-top {
     width: 100%;
     height: 50%;
     background-color: lightblue;
+}
+
+#buttonfooter {
+    float:right;
+    margin-top: 20px;
+    margin-right:20px;
+}
+
+#footermiddle-section-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+.lifontawesomwicon {
+    float:right;
 }
 
 #footerbottom {
