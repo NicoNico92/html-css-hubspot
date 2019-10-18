@@ -503,7 +503,7 @@ aside {
 
 #footer-container{
     width: 100%;
-    height: 590px;
+    height: 620px;
     background-color: #33475B;
     margin: auto;
 }
@@ -535,22 +535,32 @@ aside {
     background-color: #33475B;
     margin: auto;
     float: left;
+    position: relative;
 }
 
 .footerbar h1 {
     padding-top: 80px;
-    margin-bottom: -5px;
-    font-size: 150%;
+    font-size: 105%;
     color: white;
 }
 
 .footerbar a {
     display: block;
-    padding: 5px 0;
+    padding: 8px 0;
+    font-size: 90%;
+}
+
+.onfooterwitharrow:hover {
+    color: #cbd6ed;
 }
 
 .footerbarwithrightmargin {
     margin-right: 1.3%;
+}
+
+i.footerarrow {
+    position: absolute;
+    bottom: 5px;
 }
 
 #footermiddle-section{
